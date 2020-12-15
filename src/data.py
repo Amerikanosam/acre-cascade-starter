@@ -165,7 +165,7 @@ class AcreCascadeDataset(_SizedDataset):
         self,
         data_dir: Union[str, Path],
         download: bool = True,
-        train: bool = True,
+        train: bool = False,
         teams: Optional[Union[Team, List[Team]]] = None,
         crop: Optional[Crop] = None,
         patch_size: int = 512,
